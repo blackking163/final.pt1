@@ -1,0 +1,35 @@
+.section{
+padding: 20px;
+background-color: #0F0E0E;
+}
+.wrap{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+
+
+
+   img{
+      padding-right: 100px;
+   }
+}
+.nav{
+   display: flex;
+   gap: 60px;
+   align-items: center;
+   
+
+   a{
+      color: #909090;
+
+   }
+   :nth-child(8){
+
+      color: #0F0E0E;
+      background-color: #EAFF96;
+      padding: 10px;
+      width: 120px;
+      border-radius: 20px;
+   }
+}
